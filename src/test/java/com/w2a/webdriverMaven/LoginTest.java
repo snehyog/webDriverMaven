@@ -23,6 +23,9 @@ public class LoginTest {
 	{
 		driver.get("https://www.google.com");
 		driver.findElement(By.id("gb_70")).click();
+		driver.findElement(By.id("Email")).sendKeys("sneha");
+		
+		
 	}
 //	@AfterSuite
 	public void tearDown()
